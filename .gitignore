@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Reference: https://github.com/github/gitignore
 # From: https://gist.github.com/edesdan/6bb43343740bcd54ef0f56a384a2f66f
 
@@ -147,3 +148,28 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+=======
+/target/
+/build/
+/nbproject/
+/eclipse/
+/.gradle/
+/.idea/
+/.settings/
+/.apt_generated/
+/.apt_generated_tests/
+/out/
+/bin/
+/.fleet/
+/.classpath
+/.factorypath
+/.project
+/nbactions.xml
+/dependency-reduced-pom.xml
+/.dccache
+/.vscode
+/.env
+.DS_STORE
+*.log
+*.iml
+>>>>>>> 6b546e0 (add ad_maven_template)
