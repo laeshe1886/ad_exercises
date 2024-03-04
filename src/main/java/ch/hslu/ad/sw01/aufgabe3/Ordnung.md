@@ -15,26 +15,26 @@
 ### Aufgabe b)
 | Aufgabe                        | Lösung |
 |--------------------------------|--------|
-| f(n) = n^3 + 0.1·2n            |        | 
-| f(n) = 5326 + ln(n)            |        |
-| f(n) = 2 + 37·n^3 + 0.01 · n^4 |        |
-| f(n) = 1000·n + n^3            |        |
-| f(n) = n^7 + n!                |        |
-| f(n) = ln(n) + 1000·n          |        |
+| f(n) = n^3 + 0.1·2n            | 2^n    | 
+| f(n) = 5326 + ln(n)            | ln(n)  |
+| f(n) = 2 + 37·n^3 + 0.01 · n^4 | n^4    |
+| f(n) = 1000·n + n^3            | n^3    |
+| f(n) = n^7 + n!                | n!     |
+| f(n) = ln(n) + 1000·n          | n      |
 
 ### Aufgabe c)
-TBD
+2, 6, 4, 3, 1, 5
 
 ### Aufgabe d)
 | Aufgabe     | Lösung |
 |-------------|--------|
-| O(1)        |        | 
-| O(n^2)      |        |
-| O(n*log(n)) |        |
+| O(1)        | 0.1s   | 
+| O(n^2)      | ?      |
+| O(n*log(n)) | ?      |
 
 ### Aufgabe e)
 
-TBD
+Bekanntlich gilt (vgl. Basiswechsel y x): logx(n) = logy(n) / logy(x)logy(x)ist dabei unabhängig von n bzw. entspricht einem konstanten Zahlenwert!Zwei Logarithmusfunktionen logx(n) und logy(n) mit unterschiedlichen Basen x und y unterscheiden sich demnach nur durch einen konstanten Faktor! Bei der Big-O-Notation ist folglich die Basis bei einer Logarithmusfunktion unerheblich!
 
 ### Aufgabe f)
 
