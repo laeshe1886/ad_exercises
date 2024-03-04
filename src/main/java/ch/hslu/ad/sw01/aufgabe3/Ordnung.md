@@ -46,7 +46,7 @@ public static void exercise1(final int n) {
     doC(n);
 }
 ```
-Antwort: O(1)
+Antwort: O(n)
 
 ----------------
 2)
@@ -60,7 +60,7 @@ public static void exercise2(final int n) {
     }
 } 
 ```
-Antwort: O(1)
+Antwort: O(n)
 
 ----------------
 3)
@@ -75,7 +75,7 @@ public static void exercise3(final int n) {
 } 
 
 ```
-Antwort: (n^3)
+Antwort: (n^2)
 
 ----------------
 4)
@@ -89,6 +89,6 @@ public static void exercise4(final int n) {
     }
 } 
 ```
-Antwort: O(n^3)
+Antwort: O(n^2)
 
 ----------------

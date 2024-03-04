@@ -1,6 +1,5 @@
 package ch.hslu.ad.sw01.aufgabe5;
 
-import ch.hslu.ad.sw01.aufgabe2.Laufzeit;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
